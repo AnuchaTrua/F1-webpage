@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+#navigator {
+    
+    background-color: black;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+
+/* style header logo */
+#nav-logo {
+    
+    width: 5%;
+    height: 5%;
+    margin: 1%;
+    margin-left: 2%;
+
+}
+
+#button-container {
+    display: flex;
+    margin-right: 2%;
+    
+}
+
+#navigator button {
+    background-color: transparent;
+    margin: 0px;
+    float: right;
+    color: white;
+    
+    border: none;
+    width: 7em;
+    
+}
+
+#navigator button:hover {
+    background-color:rgb(212, 0, 0);
+    transition: 0.3s;
+}
+
+#cd-section {
+    display: flex;
+    justify-content: space-between; /* Change this to space-between */
+    align-items: center; 
+    background-color: #145f3d; 
+    
+}
+
+#cd1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* จัดแนวในแนวนอน */
+    flex: 1; 
+}
+
+#cd1-flag {
+    display: flex; /* ทำให้ div เป็น flex container */
+    flex-direction: column; /* จัดองค์ประกอบในแนวตั้ง */
+    align-items: center; /* จัดให้อยู่กลางในแนวขวาง */
+    margin: 0 5px; /* ลดระยะห่างด้านข้าง */
+    color: white;
+    width: auto; /* ปรับความกว้างให้เป็นอัตโนมัติ */
+}
+
+#cd1-location {
+    display: flex; /* ทำให้ div เป็น flex container */
+    flex-direction: column; /* จัดองค์ประกอบในแนวตั้ง */
+    align-items: center; /* จัดให้อยู่กลางในแนวขวาง */
+    margin: 0 5px; /* ลดระยะห่างด้านข้าง */
+    color: white;
+    flex-grow: 1; /* ให้ cd1-location ขยายเต็มที่ */
+    min-width: 100px; /* กำหนดความกว้างขั้นต่ำถ้าต้องการ */
+}
+
+
+
+#cd2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+}
+
+#cd3 {
+    border: 2px solid red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+}
+
+#cd-section #flag {
+    height: 10%;
+    width: 10%;
+    margin: 10px;
+}
+
+#cd-section #cd-timer {
+    object-fit: cover;
+}
+
+/*  */
+
+#cd3 button {
+    
+    
+    background: transparent;
+    border: 0;
+    
+    transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
+    transition: transform 0.2s;
+    position: relative;
+}
+  
+#cd3 button:hover {
+    --y: -10;
+    --scale: 1.1;
+    --border-scale: 1;
+}
+  
+  
+
+
+
+
+/*  */
+
+
+
+
+/*  */
+
+
+  
+  
+  
