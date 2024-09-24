@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Verdana', 'Segoe UI', 'San Francisco', sans-serif;
 }
 
 #navigator {
@@ -71,9 +71,9 @@ body {
     display: flex; /* ทำให้ div เป็น flex container */
     flex-direction: column; /* จัดองค์ประกอบในแนวตั้ง */
     align-items: center; /* จัดให้อยู่กลางในแนวขวาง */
-    margin: 0 5px; /* ลดระยะห่างด้านข้าง */
+    
     color: white;
-    width: auto; /* ปรับความกว้างให้เป็นอัตโนมัติ */
+    
 }
 
 #cd1-location {
@@ -108,7 +108,7 @@ body {
 #cd-section #flag {
     height: 10%;
     width: 10%;
-    margin: 10px;
+    margin-bottom: 3%;
 }
 
 #cd-section #cd-timer {
@@ -118,6 +118,22 @@ body {
 /*  */
 
 #cd3 button {
+    background-color: #007bff; /* A bold blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adds space around the text */
+    font-size: 16px; /* Slightly larger text */
+    font-weight: bold; /* Makes the text bold */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#cd3 button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* #cd3 button {
     
     
     background: transparent;
@@ -132,6 +148,15 @@ body {
     --y: -10;
     --scale: 1.1;
     --border-scale: 1;
+} */
+
+.banner {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    overflow: hidden; 
 }
   
   
