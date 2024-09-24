@@ -18,7 +18,7 @@ body {
     
 }
 
-/* style header logo */
+
 #nav-logo {
     
     width: 5%;
@@ -52,7 +52,7 @@ body {
 
 #cd-section {
     display: flex;
-    justify-content: space-between; /* Change this to space-between */
+    justify-content: space-between; 
     align-items: center; 
     background-color: #145f3d; 
     
@@ -63,27 +63,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; /* จัดแนวในแนวนอน */
+    flex-direction: row; 
     flex: 1; 
 }
 
 #cd1-flag {
-    display: flex; /* ทำให้ div เป็น flex container */
-    flex-direction: column; /* จัดองค์ประกอบในแนวตั้ง */
-    align-items: center; /* จัดให้อยู่กลางในแนวขวาง */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     
     color: white;
     
 }
 
 #cd1-location {
-    display: flex; /* ทำให้ div เป็น flex container */
-    flex-direction: column; /* จัดองค์ประกอบในแนวตั้ง */
-    align-items: center; /* จัดให้อยู่กลางในแนวขวาง */
-    margin: 0 5px; /* ลดระยะห่างด้านข้าง */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 5px; 
     color: white;
-    flex-grow: 1; /* ให้ cd1-location ขยายเต็มที่ */
-    min-width: 100px; /* กำหนดความกว้างขั้นต่ำถ้าต้องการ */
+    flex-grow: 1; 
+    min-width: 100px; 
 }
 
 
@@ -97,8 +97,8 @@ body {
 }
 
 #cd3 {
-    border: 2px solid red;
-    color: white;
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,37 +118,22 @@ body {
 /*  */
 
 #cd3 button {
-    background-color: #007bff; /* A bold blue background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Adds space around the text */
-    font-size: 16px; /* Slightly larger text */
-    font-weight: bold; /* Makes the text bold */
-    border: none; /* Removes the default border */
-    border-radius: 5px; /* Slightly rounded corners */
-    cursor: pointer; /* Changes the cursor to a pointer */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
 #cd3 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: red; 
 }
 
-/* #cd3 button {
-    
-    
-    background: transparent;
-    border: 0;
-    
-    transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
-    transition: transform 0.2s;
-    position: relative;
-}
-  
-#cd3 button:hover {
-    --y: -10;
-    --scale: 1.1;
-    --border-scale: 1;
-} */
+
 
 .banner {
     display: flex;
@@ -158,9 +143,42 @@ body {
     width: 100%; 
     overflow: hidden; 
 }
-  
+
+.banner-image h1{
+    top: 400px;
+    right: 1500px;
+    color: white;
+    position: absolute;
+}
+
+.banner-image p{
+    top: 460px;
+    right: 1595px;
+    color: white;
+    position: absolute;
+}
   
 
+#d-stand {
+    display: flex;
+}
+
+#d-stand img {
+    width: 80%;
+    height: 80%;
+}
+
+#stand2 {
+    border: 2px solid red;
+}
+
+#stand1 {
+    border: 2px solid red;
+}
+
+#stand3 {
+    border: 2px solid red;
+}
 
 
 
