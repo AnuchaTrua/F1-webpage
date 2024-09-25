@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Verdana', 'Segoe UI', 'San Francisco', sans-serif;
+    background-color: black;
 }
 
 #navigator {
@@ -161,6 +162,10 @@ body {
 
 #d-stand {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 3em;
+    background-color: grey;
 }
 
 #d-stand img {
@@ -168,26 +173,55 @@ body {
     height: 80%;
 }
 
-#stand2 {
-    border: 2px solid red;
+#d-stand div {
+    margin: 20px;
 }
+
+
 
 #stand1 {
-    border: 2px solid red;
+    
+    width: 70%;
+    height: 70%;
+    top: 10%;
+    
 }
 
-#stand3 {
-    border: 2px solid red;
+#stand1 h1 {
+    background-color: gold;
+}
+
+#stand2,#stand3 {
+    
+    width: 60%;
+    height: 60%;
+    bottom: 10px;
+}
+
+#stand2 h1 {
+    background-color: silver;
+}
+
+#stand3 h1 {
+    background-color: rgba(184, 75, 12, 0.973);
+}
+
+#ds-header {
+    background-color: black;
+    text-align: center;
+    margin-top: 1em;
+    color: red;
 }
 
 
+footer {
+    color: white;
+    height: 30px;
+    
+    text-align: center;
+}
 
-/*  */
 
-
-
-
-/*  */
 
 
   
