@@ -9,6 +9,8 @@ body {
     background-color: black;
 }
 
+
+/* navvv */
 #navigator {
     
     background-color: black;
@@ -51,6 +53,8 @@ body {
     transition: 0.3s;
 }
 
+
+/* countdown section */
 #cd-section {
     display: flex;
     justify-content: space-between; 
@@ -116,7 +120,7 @@ body {
     object-fit: cover;
 }
 
-/*  */
+
 
 #cd3 button {
     background-color: black; 
@@ -135,7 +139,7 @@ body {
 }
 
 
-
+/* banner or header */
 .banner {
     display: flex;
     
@@ -159,7 +163,7 @@ body {
     position: absolute;
 }
   
-
+/* driver standing */
 #d-stand {
     display: flex;
     justify-content: center;
